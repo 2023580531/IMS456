@@ -1,0 +1,151 @@
+Gallery.html
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Gallery | Amni's Personal Website</title>
+
+<style>
+
+body{
+font-family:Arial;
+background:#f8f4f6;
+margin:0;
+}
+
+header{
+background:#5b1839;
+color:white;
+text-align:center;
+padding:25px;
+}
+
+nav{
+background:#8b3158;
+padding:15px;
+text-align:center;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:15px;
+font-weight:bold;
+}
+
+nav a:hover{
+color:pink;
+}
+
+.container{
+width:90%;
+margin:auto;
+padding:30px;
+}
+
+h2{
+text-align:center;
+color:#5b1839;
+margin-bottom:30px;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+height:250px;
+object-fit:cover;
+border-radius:10px;
+box-shadow:0 0 10px lightgray;
+transition:0.3s;
+}
+
+.gallery img:hover{
+transform:scale(1.05);
+}
+
+footer{
+background:#5b1839;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:30px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>My Gallery</h1>
+
+<p>Memorable Moments</p>
+
+</header>
+
+<nav>
+
+<a href="index.html">Home</a>
+<a href="biodata.html">Biodata</a>
+<a href="education.html">Education</a>
+<a href="experience.html">Experience</a>
+<a href="family.html">Family</a>
+<a href="gallery.html">Gallery</a>
+
+</nav>
+
+<div class="container">
+
+<h2>Photo Gallery</h2>
+
+<div class="gallery">
+
+<a href="1.jpeg" target="_blank">
+    <img src="1.jpeg" alt="Gallery 1">
+</a>
+
+<a href="2.jpeg" target="_blank">
+    <img src="2.jpeg" alt="Gallery 2">
+</a>
+
+<a href="3.jpeg" target="_blank">
+    <img src="3.jpeg" alt="Gallery 3">
+</a>
+
+<a href="4.jpeg" target="_blank">
+    <img src="4.jpeg" alt="Gallery 4">
+</a>
+
+<a href="5.jpeg" target="_blank">
+    <img src="5.jpeg" alt="Gallery 5">
+</a>
+
+<a href="6.jpeg" target="_blank">
+    <img src="6.jpeg" alt="Gallery 6">
+</a>
+
+</div>
+
+</div>
+
+<footer>
+
+<p> 2026 IMS456 Individual Project</p>
+
+</footer>
+
+</body>
+
+</html>
